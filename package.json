@@ -1,0 +1,24 @@
+{
+  "name": "testspec",
+  "version": "0.0.0",
+  "description": "test spec",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --dir . --open --live --ssl",
+    "build": "browserify demo:demo.js > bundle.js",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/testspec.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/testspec/issues"
+  },
+  "homepage": "https://github.com/serapath/testspec#readme",
+  "devDependencies": {
+    "budo": "^11.6.3"
+  }
+}
